@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TarjetaCredito</string>
+
+    <string-array name="arrTipoTarjeta">
+        <item>Credito</item>
+        <item>Credito Azul</item>
+        <item>Credito Dorado</item>
+    </string-array>
+
+
+</resources>
