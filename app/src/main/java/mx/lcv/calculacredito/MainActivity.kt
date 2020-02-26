@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         //Pasar tipo tarjeta
 
         val intCalcularCredito = Intent(this, CalcularCredito::class.java)
-        val tipoTarjeta = spinnerTipoTarjeta.selectedItemId
+        val tipoTarjeta = spinnerTipoTarjeta.selectedItemPosition
 
         intCalcularCredito.putExtra("tipoTarjeta", tipoTarjeta)
         //Regresa un valor
